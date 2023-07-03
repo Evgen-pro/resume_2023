@@ -19,6 +19,27 @@ body {
   line-height: 51px;
 }
 
+.btn {
+  display: inline-block;
+  background-color: #070707;
+  padding: 7px 23px;
+  border-radius: 30px;
+  font-size: 18px;
+  color: #fff;
+  transition: background-color 0.2s easy-in, top 0.2 easy-in;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #3e3d3d;
+}
+
+.btn:active {
+  background-color: #000;
+  position: relative;
+  top: 1px;
+}
+
 /* Header */
 .header {
   background-color: #f1f1f1;
@@ -153,4 +174,36 @@ body {
 .project-title a {
   color: #000;
   text-decoration: underline;
+}
+
+/* footer */
+
+.contacts {
+  padding: 90px 0;
+  text-align: center;
+}
+
+.contacts-title {
+  margin-bottom: 40px;
+}
+
+.contacts-content {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.contacts-button {
+  margin-bottom: 80px;
+}
+
+.contacts-social {
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contacts-footer {
+  color: #828282;
 }
